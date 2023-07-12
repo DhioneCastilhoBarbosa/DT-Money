@@ -1,21 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import { ThemeProvider } from 'styled-components'
 import { defaultTheme } from './styles/themes/default'
-import { GlobalStyles } from './styles/global'
+import { GlobalStyle } from './styles/global'
 import { Transactions } from './pages/Transactions'
-
+import { TransactionsProvider } from './contexts/TransactionsContext'
 
 export function App() {
-  
-
   return (
     <ThemeProvider theme={defaultTheme}>
-      <GlobalStyles/>
-      <Transactions/>
+      <GlobalStyle />
+      <TransactionsProvider>
+        <Transactions />
+      </TransactionsProvider>
     </ThemeProvider>
-    
   )
 }
-
-

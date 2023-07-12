@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "description": "Hanburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 54,
+      "createdAt": "2022-07-29T19:50:44.505Z"
+    },
+    {
+      "description": "Desenvolvimento de APP",
+      "price": 10000,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2022-08-29T19:50:44.505Z",
+      "id": 3
+    },
+    {
+      "description": "pastel",
+      "price": 5,
+      "category": "Aliemntação",
+      "type": "outcome",
+      "createdAt": "2023-07-11T15:54:49.734Z",
+      "id": 4
+    },
+    {
+      "description": "Frutas",
+      "price": 30,
+      "category": "alimentação",
+      "type": "outcome",
+      "createdAt": "2023-07-11T16:15:06.475Z",
+      "id": 5
+    }
+  ]
+}
